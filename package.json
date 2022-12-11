@@ -24,7 +24,7 @@
 		"start": "npm run server",
 		"start:build": "npm run build && npm run server",
 		"build": "react-scripts build",
-		"server": "npx ts-node-dev server.ts",
+		"server": "ts-node-dev server.ts",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
 	},
@@ -53,6 +53,7 @@
 		"@types/react-dom": "^18.0.9",
 		"@types/uuid": "^9.0.0",
 		"nodemon": "^2.0.15",
+		"ts-node-dev": "^2.0.0",
 		"typescript": "^4.9.4"
 	}
 }
