@@ -22,6 +22,7 @@
 	"scripts": {
 		"dev": "react-scripts start",
 		"start": "npm run build && npm run server",
+		"start:build": "npm run build && npm run server",
 		"build": "react-scripts build",
 		"server": "npx ts-node-dev server.ts",
 		"test": "react-scripts test",
